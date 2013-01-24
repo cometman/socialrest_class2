@@ -42,6 +42,7 @@
 			    FB.login(function(response) {
 			        if (response.authResponse) {
 			            console.log(response);
+			            window.location=("Main.html");
 			        } else {
 			            // cancelled
 			        }
@@ -50,8 +51,7 @@
 
 			function logout() {
 				FB.logout(function(response) {
-	  				// user is now logged out
-	  				console.log(response);
+
 				});
 			}
 		</script>

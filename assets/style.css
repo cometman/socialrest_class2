@@ -17,3 +17,19 @@ header {
 body {
 
 }
+
+#friendListButton
+{
+	margin-left: 48%;
+}
+
+#content
+{
+	min-width: 33%;
+	max-width: 33%;
+	margin-left: 34%;
+	margin-top: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
